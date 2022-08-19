@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* utilites  or reusable classes*/
+
+.bg-header {
+  background-color: #1c2230 !important;
+}
+
+.bg-features {
+  background-color: #181f2b !important;
+}
+
+.bg-testimonials {
+  background-color: #21293c !important;
+}
+
+.bg-footer {
+  background-color: #0c1524 !important;
+}
+
+.border-features {
+  border: 1px solid #181f2b !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-base {
+  color: #59c5d6 !important;
+}
+
+.fw-semi-bold {
+  font-weight: 500 !important;
+}
+
+.w-85 {
+  width: 85% !important;
+}
+
+.pt-6 {
+  padding-top: 12rem !important;
+}
+
+.mt-6 {
+  margin-top: 4.7rem !important;
+}
+
+header {
+  min-height: 145vh;
+}
+
+/* nav section */
+.navbar .navbar-nav .nav-link {
+  color: aliceblue !important;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.footer-link:hover {
+  color: #59c5d6 !important;
+}
+
+.nav-logo {
+  width: 8rem;
+}
+
+.wavyBackground {
+  position: absolute;
+  top: 95%;
+  z-index: 1;
+}
+
+.content-heading {
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+}
+
+.content-paragraph {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.content-box {
+  padding: 5rem 0;
+}
+
+/* buttons */
+.header-button {
+  background-color: #59c5d6;
+  color: #fff;
+  padding: 1rem 4rem;
+  border-radius: 20px;
+  border: 2px solid #59c5d6;
+  font-weight: 600;
+  transition: all 0.6s ease-in-out;
+}
+
+.header-button:hover {
+  color: #59c5d6 !important;
+  border-color: #59c5d6 !important;
+  background: transparent;
+}
+
+.phyloWorks .arrowImg {
+  transition: all 0.4s ease;
+}
+
+.phyloWorks:hover .arrowImg {
+  margin-left: 0.4rem;
+}
+
+.emailButton {
+  border-radius: 20px;
+  background-color: #59c5d6;
+  padding: 0.6rem 1.7rem;
+  border-color: #59c5d6;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-weight: 600;
+}
+
+.emailButton:hover {
+  color: #59c5d6;
+  background-color: transparent;
+  border-color: #59c5d6;
+}
+
+.emailSection {
+  top: 13rem;
+  width: 75%;
+}
+
+.footer-location {
+  width: 20px;
+}
+
+@media only screen and (max-width: 35rem) {
+  .content-heading {
+    font-size: 2.2rem !important;
+    font-weight: 800 !important;
+  }
+  header {
+    min-height: 20vh;
+  }
+  .nav-logo {
+    width: 4.5rem;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: aliceblue !important;
+    font-size: 1rem;
+  }
+
+  .wavyBackground2 {
+    position: absolute;
+    top: 60%;
+    z-index: 1;
+  }
+
+  .emailSection {
+    top: 13rem;
+    width: 90%;
+  }
+
+  .emailButton {
+    width: 100%;
+  }
+
+  .footer-location {
+    width: 70px;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  header {
+    min-height: 80vh;
+  }
+
+  .emailButton {
+    width: 100%;
+  }
+}
